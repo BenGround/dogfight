@@ -1,5 +1,8 @@
 package jpu2016.dogfight.controller;
 
-public class IUserOrder {
+public interface IUserOrder {
 
+    Order getOrder();
+
+    int getPlayer();
 }

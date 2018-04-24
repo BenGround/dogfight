@@ -1,5 +1,8 @@
 package jpu2016.dogfight.view;
 
-public class IViewSystem {
+public interface IViewSystem {
 
+    void displayMessage(String message);
+
+    void closeAll();
 }
