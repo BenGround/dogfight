@@ -8,19 +8,23 @@ import java.util.Observable;
 
 public class DogfightView implements IViewSystem, Runnable {
 
-    public DogfightView(IOrderPerformer orderPerformer, DogfightModel dogfightModel, Observable observable) {
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
 
-    }
+	@Override
+	public void displayMessage(String message) {
+		// TODO Auto-generated method stub
+		
+	}
 
-    public void run() {
+	@Override
+	public void closeAll() {
+		// TODO Auto-generated method stub
+		
+	}
 
-    }
-
-    public void displayMessage(String message) {
-
-    }
-
-    public void closeAll() {
-
-    }
+ 
 }
